@@ -59,22 +59,6 @@ htmlcov/
 .tox/
 .nox/
 
-# --- Archivos de datos grandes ---
-*.csv
-*.tsv
-*.parquet
-*.feather
-*.xlsx
-*.json
-*.zip
-*.gz
-*.tar
-*.tar.gz
-*.pkl
-*.h5
-*.hdf5
-*.sav
-
 # --- Archivos personales ---
 *.env.local
 *.secret
