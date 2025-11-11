@@ -1,0 +1,81 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entorno virtual ---
+venv/
+.env/
+.venv/
+
+# --- Archivos temporales y caché ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# --- Dependencias ---
+# No subas la carpeta de dependencias si la tienes instalada localmente
+site/
+site-packages/
+
+# --- Archivos de compilación / empaquetado ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Configuración del sistema o del editor ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Jupyter (por si usas notebooks) ---
+.ipynb_checkpoints/
+*.ipynb_save
+
+# --- Archivos de OS (macOS, Linux, Windows) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Archivos generados por herramientas ---
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.tox/
+.nox/
+
+# --- Archivos de datos grandes ---
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.json
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.pkl
+*.h5
+*.hdf5
+*.sav
+
+# --- Archivos personales ---
+*.env.local
+*.secret
+*.key
